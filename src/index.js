@@ -42,9 +42,9 @@ angular
   .factory('LeanRT', () => {
     const LeanRT = {};
     const realtime = new Realtime({
-      appId,
-      appKey,
-      server,
+      JMXDh76T1NulzNswzFq62kps-MdYXbMMI,
+      V36e5VuCmE71nhgsGGDaya5p,
+      https://jmxdh76t.api.lncldglobal.com,
       plugins: [TypedMessagesPlugin, GroupchatReceiptsPlugin, TypingIndicatorPlugin]
     });
     realtime.register([StickerMessage]);
